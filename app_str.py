@@ -1,4 +1,4 @@
-""" THIS IS A BUNCH OF PRACTICE CODE FOR PYTHON """
+"""practical exercises for strings and string methods """
 
 # print("Hello World!" + " Hello again")
 students_count = 100
