@@ -1,6 +1,6 @@
 """practice of different operators, if statements and a combination of both"""
 
-## Operations and statements
+## Operators and statements
 
 ## comparison operators: ==, !=, <, >, <=, >=
 
