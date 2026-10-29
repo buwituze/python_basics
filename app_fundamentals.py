@@ -43,7 +43,7 @@ if not defense:
 else:
     print("Graduation is possible")
 
-    # combination of all 
+    # combination of all loical operators
 
 if (defense or report) and not finance_standing:
     print("Graduation is possible")
@@ -52,8 +52,8 @@ else:
 
 ## membership operators: in, not in
 
-list = [1, 2, 3, 4, 5]
-print(3 in list)
+num_list = [1, 2, 3, 4, 5]
+print(3 in num_list)
 
 string = "Hello World"
 print("H" not in string)
@@ -79,6 +79,3 @@ if times >= 0 and times < 6 :
 
 if 0 <= times < 6 :
     print("Times is between 0 and 5")
-
-
-
