@@ -1,5 +1,7 @@
 """practical exercises with different types of loops and iterable data types"""
 
+## Types of loops: for, for...else, while, and nested
+
 # For loops: use this when you know how many times you want to loop through a block of code.
 
 for num in range(4):
@@ -35,7 +37,7 @@ for x in range(3):
 
 
 
-## Iterables: list, tuple, dictionary, set, range, string. 
+## Iterables: list, tuple, dictionary, set, range, string. (Iterables are objects or data types that can be looped through)
 
 for x in "Python":
     print(x)
@@ -101,4 +103,3 @@ while number > 0:
 #     else:
 #         continue
 # print(f"We have {count} numbers")   # this is similar to but more efficient than print(f"We have" , count, "numbers")
-
