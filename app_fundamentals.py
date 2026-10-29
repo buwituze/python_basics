@@ -27,10 +27,10 @@ print(status)
 ## logical operators: and, or, not
 
 defense = True
-report = True
+final_report = True
 finance_standing = True
 
-if defense and report:  ## or
+if defense and final_report:  ## or
     print("Graduate ready")
 else:
     print("Graduate not ready")
@@ -45,7 +45,7 @@ else:
 
     # combination of all loical operators
 
-if (defense or report) and not finance_standing:
+if (defense or final_report) and not finance_standing:
     print("Graduation is possible")
 else:
     print("Graduation is not possible")
@@ -70,12 +70,12 @@ print(x is not y)
 
 ## chaining operators -- different ways
 
-times = 5 
+clock_time = 5 
 
-if times >= 0 and times < 6 :
-    print("Times is between 0 and 5")
+if clock_time >= 0 and clock_time < 6 :
+    print("Time is between 0 and 5")
 
 ### these two are the same
 
-if 0 <= times < 6 :
-    print("Times is between 0 and 5")
+if 0 <= clock_time < 6 :
+    print("Time is between 0 and 5")
