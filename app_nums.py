@@ -1,4 +1,4 @@
-# Types of numberrs: inteers, floats, complex number (a + bi)
+# Types of numbers: integers, floats, complex number (a + bi)
 
 ## Operations
 
@@ -13,7 +13,7 @@ print(2 % 3) # to get remainder
 ## some in-built functions
 print(round(3.5))
 print(abs(-2.6))
- 
+
 ## math module functions  --- wiillcheck out python 3 math modules for more stuff
 import math
 
@@ -27,19 +27,19 @@ import random
 print(random.randint(0, 100))
 
 ## type conversion
-x = input("Enter a number: ")  # -- this gives a string
+x = input("Enter a number: ")  # -- this gives a string, the value entered by the user is stored as a string
 y = int(x) + 1    ## converting the string to an integer
 
 ## more on type casting
 
 # x = 5
-# y = str(x)  # to strin
+# y = str(x)  # turn value from number to string
 
 # x ='5'
 # y = int(x)
-# y = float(x)
-# y = complex(x)  
-# y = bool(x)   # 
+# y = float(x)  #decimal numbers
+# y = complex(x)  # a complex number, e.g.: 3 + 2j
+# y = bool(x)   # boolean has two values : True or False 
 
 print(f" y: {y} , x: {int(x)}")   # concantinating str and numbers
 
