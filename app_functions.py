@@ -1,5 +1,5 @@
-"""practice for functions"""
-
+"""practice functions,  parameters, aruments, and returning values"""
+## Note: after learning functions basics; learn recursion.
 
 def day():
     print("It's Monday!")
@@ -32,7 +32,6 @@ print(message)
 file = open("my_file.txt","w")
 file.write(message)
 file.close()
-
 
 
 # multiple arguments
